@@ -1,0 +1,33 @@
+﻿
+@using AspNetCoreTemplate.Common
+
+@{ this.ViewData["Title"] = "AddDiagnose"; }
+
+<div class="text-center">
+    <h1 class="display-4">Page For adding diagnoses</h1>
+
+    <ul class="form">
+        <form method="get">
+            Name: <input type="text" class="form" value="@ViewBag.Name" name="name" />
+            Comments: <input type="text" class="form" value="@ViewBag.Comemnts" name="comments" />
+            Patient:
+            <select id="position" class="form-control" name="patientId">
+                @foreach (var patient in Model)
+                {
+                    <option value="@patient.PatientId">@(patient.FirstName + " "+ patient.LastName)</option>
+                }
+            </select>
+
+                <div>
+                    <>=====================<>
+                </div>
+                <input type="submit" />
+            </form>
+        </ul>
+
+
+        @if (ViewBag.IsValid)
+        {
+<div>Successfully added diagnose @ViewBag.Name to patient @ViewBag.Patient!</div>}
+
+    </div>

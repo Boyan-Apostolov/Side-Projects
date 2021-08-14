@@ -1,0 +1,39 @@
+﻿@using AspNetCoreTemplate.Common
+@model IList<AspNetCoreTemplate.Data.HospitalModels.Patient>
+@{ this.ViewData["Title"] = "LinkPatientWithMedicament"; }
+
+<div class="text-center">
+    <h1 class="display-4">Page For adding linking patients to their medicaments</h1>
+
+    <ul class="form">
+        <form method="get">
+
+            Patient: 
+            
+            <select id="position" class="form-control" name="patientId">
+            @foreach (var patient in ViewBag.Patients)
+            {
+                <option value="@patient.PatientId">@(patient.FirstName + " "+ patient.LastName)</option>
+            }
+            </select>
+
+            Medicament: 
+            <select id="position" class="form-control" name="medicamentId">
+                @foreach (var medicament in ViewBag.Medicaments)
+                {
+            <option value="@medicament.MedicamentId">@medicament.Name</option>}
+            </select>
+
+            <div>
+                <>=====================<>
+            </div>
+            <input type="submit"/>
+        </form>
+        </ul>
+
+
+        @if (ViewBag.IsValid)
+        {
+<div>Successfully linked medicament @ViewBag.Medicament to patient @ViewBag.Patient!</div>}
+
+    </div>

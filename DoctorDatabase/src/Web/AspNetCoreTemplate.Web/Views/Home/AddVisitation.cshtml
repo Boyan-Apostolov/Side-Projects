@@ -1,0 +1,35 @@
+﻿@using AspNetCoreTemplate.Common
+@{ this.ViewData["Title"] = "AddVisitation"; }
+
+<div class="text-center">
+    <h1 class="display-4">Page For adding visitations</h1>
+
+    <ul class="form">
+        <form method="get">
+            Date: <input type="date" class="form" value="@ViewBag.Date" name="date" />
+            Comments: <input type="text" class="form" value="@ViewBag.Comemnts" name="comments" />
+            Patient: <select id="position" class="form-control" name="patientId">
+                @foreach (var patient in ViewBag.Patients)
+                {
+        <option value="@patient.PatientId">@(patient.FirstName + " "+ patient.LastName)</option>}
+            </select>
+
+            Doctor: 
+            <select id="position" class="form-control" name="doctorId">
+                @foreach (var doctor in ViewBag.Doctors)
+                {
+        <option value="@doctor.DoctorId">@doctor.Name</option>}
+            </select>
+            <div>
+                <>=====================<>
+            </div>
+            <input type="submit" />
+        </form>
+        </ul>
+
+
+        @if (ViewBag.IsValid)
+        {
+<div>Successfully added visitation for doctor @ViewBag.Doctor with patient @ViewBag.Patient on @ViewBag.Date.ToString("dd/MM/yyyy")!</div>}
+
+    </div>

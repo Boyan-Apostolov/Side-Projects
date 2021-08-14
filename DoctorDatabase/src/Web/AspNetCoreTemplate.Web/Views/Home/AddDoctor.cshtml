@@ -1,0 +1,24 @@
+﻿@using AspNetCoreTemplate.Common
+@{ this.ViewData["Title"] = "AddDoctor"; }
+
+<div class="text-center">
+    <h1 class="display-4">Page For adding doctors</h1>
+    
+    <ul class="form">
+    <form  method="get">
+        Name: <input type="text" class ="form" value="@ViewBag.Name" name="name" />
+        Specialty: <input type="text" class ="form" value="@ViewBag.Specialty" name="specialty" />
+        <div>
+              <>=====================<>
+        </div>
+        <input type="submit" />
+    </form>
+    </ul>
+    
+
+    @if (ViewBag.IsValid)
+    {
+<div>Successfully added patient @ViewBag.Name who is good in @ViewBag.specialty!</div>
+    }
+
+</div>

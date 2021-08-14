@@ -1,0 +1,20 @@
+B:\CODES\CarGame\CarGame\bin\Debug\CarGame.exe.config
+B:\CODES\CarGame\CarGame\bin\Debug\CarGame.exe
+B:\CODES\CarGame\CarGame\bin\Debug\CarGame.pdb
+B:\CODES\CarGame\CarGame\obj\Debug\CarGame.csprojAssemblyReference.cache
+B:\CODES\CarGame\CarGame\obj\Debug\CarGame.Form1.resources
+B:\CODES\CarGame\CarGame\obj\Debug\CarGame.Properties.Resources.resources
+B:\CODES\CarGame\CarGame\obj\Debug\CarGame.csproj.GenerateResource.cache
+B:\CODES\CarGame\CarGame\obj\Debug\CarGame.csproj.CoreCompileInputs.cache
+B:\CODES\CarGame\CarGame\obj\Debug\CarGame.exe
+B:\CODES\CarGame\CarGame\obj\Debug\CarGame.pdb
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\bin\Debug\CarGame.exe.config
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\bin\Debug\CarGame.exe
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\bin\Debug\CarGame.pdb
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\obj\Debug\CarGame.csprojAssemblyReference.cache
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\obj\Debug\CarGame.Form1.resources
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\obj\Debug\CarGame.Properties.Resources.resources
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\obj\Debug\CarGame.csproj.GenerateResource.cache
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\obj\Debug\CarGame.csproj.CoreCompileInputs.cache
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\obj\Debug\CarGame.exe
+B:\CODES\BiggerProjects\Escape the Coronavirus!\CarGame\obj\Debug\CarGame.pdb

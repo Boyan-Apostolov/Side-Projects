@@ -1,0 +1,27 @@
+﻿@using AspNetCoreTemplate.Common
+@{ this.ViewData["Title"] = "AddPatient"; }
+
+<div class="text-center">
+    <h1 class="display-4">Page For adding patients</h1>
+    
+    <ul class="form">
+    <form  method="get">
+        First Name: <input type="text" class ="form" value="@ViewBag.FirstName" name="firstName" />
+        Last Name: <input type="text" class ="form" value="@ViewBag.LastName" name="lastName" />
+        Address: <input type="text" class ="form" value="@ViewBag.Address" name="address" />
+        Email: <input type="text" class ="form" value="@ViewBag.Email" name="email" />
+        Has Insurance (1 or 0): <input type="number" class ="form" value="@ViewBag.IsInsured" name="isInsured" />
+        <div>
+              <>=====================<>
+        </div>
+        <input type="submit" />
+    </form>
+    </ul>
+    
+
+    @if (ViewBag.IsValid)
+    {
+        <div>Successfully added patient @ViewBag.FirstName @ViewBag.LastName!</div>
+    }
+
+</div>

@@ -1,0 +1,18 @@
+﻿@using AspNetCoreTemplate.Common
+@{ this.ViewData["Title"] = "AddMedicament"; }
+
+<div class="text-center">
+    <h1 class="display-4">Page For adding medicaments</h1>
+
+    <form method="get">
+        Medicament name: <input type="text" value="@ViewBag.Name" name="name" />
+        <>=============<>
+
+        <input type="submit" />
+    </form>
+    @if (ViewBag.IsValid)
+    {
+        <div>Successfully added medicament @ViewBag.Name!</div>
+    }
+
+</div>

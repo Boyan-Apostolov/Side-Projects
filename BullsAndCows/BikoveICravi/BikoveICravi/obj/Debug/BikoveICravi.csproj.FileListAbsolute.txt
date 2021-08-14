@@ -1,0 +1,10 @@
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\bin\Debug\BikoveICravi.exe.config
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\bin\Debug\BikoveICravi.exe
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\bin\Debug\BikoveICravi.pdb
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\obj\Debug\BikoveICravi.csprojAssemblyReference.cache
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\obj\Debug\BikoveICravi.Form1.resources
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\obj\Debug\BikoveICravi.Properties.Resources.resources
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\obj\Debug\BikoveICravi.csproj.GenerateResource.cache
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\obj\Debug\BikoveICravi.csproj.CoreCompileInputs.cache
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\obj\Debug\BikoveICravi.exe
+C:\Users\boian\Desktop\BikoveICravi\BikoveICravi\obj\Debug\BikoveICravi.pdb

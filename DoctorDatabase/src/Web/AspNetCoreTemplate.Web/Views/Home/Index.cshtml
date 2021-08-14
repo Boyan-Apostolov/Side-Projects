@@ -1,0 +1,33 @@
+﻿@using AspNetCoreTemplate.Common
+@{ this.ViewData["Title"] = "Home Page"; }
+
+@if (User.IsInRole("Doctor"))
+{
+    <div class="text-center">
+        <h1 class="display-4">Here is some info about your patients</h1>
+        <p>Info</p>
+    </div>
+
+}
+else if (User.IsInRole("Administrator"))
+{
+    <div class="text-center">
+        <h1 class="display-4">Admins ONLY</h1>
+        <p>Info about the database</p>
+    </div>
+}
+else if (User.IsInRole("Patient"))
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="PatientIndex">PatientIndex</a>
+    </li>
+}
+else
+    {
+    <div class="text-center">
+    <h1 class="display-4">Welcome to Bobby Hospital !</h1>
+    <p><a href="/Identity/Account/Login">Login</a> to start using the system !</p>
+</div>
+
+}
+
